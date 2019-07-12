@@ -30,3 +30,24 @@ RNMediaMetadataRetriever.getMetadata(uri)
   genre: 'Hip Hop' 
 }
 ```
+
+#### Get Embeded picture :
+```
+RNMediaMetadataRetriever.getPicture(this.state.active.url)
+  .then((response) => {
+      if(response.artcover){
+          let track = this.state.active;
+          track.artcover = response.artcover;
+          this.setState({
+              active: track
+          })
+      }
+  })
+  .catch((error) => {
+      console.log(error);
+  })
+  
+  ```
+  
+  #### Response :
+  `{ artcover: http://kannadasongs.cc/thumbs/42.png }`

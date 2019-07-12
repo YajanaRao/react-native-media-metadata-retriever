@@ -17,10 +17,7 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "dependencies": {
-    "react": "16.8.6",
-    "react-native": "0.60.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/runtime": "^7.5.4",

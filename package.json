@@ -7,6 +7,15 @@
   "contributors": [
     "Yajana <yajananrao@gmail.com>"
   ],
+  "keywords": [
+    "react-native",
+    "music",
+    "files",
+    "metadata",
+    "android",
+    "react",
+    "native"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/YajanaRao/react-native-media-metadata-retriever.git"
